@@ -1,0 +1,93 @@
+.nav_cointain {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(145, 191, 206);
+}
+.nav_list {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav_list p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav_list button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid  rgb(145, 191, 206);
+  padding: 10px 20px 10px 20px;
+}
+.form_con1 {
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.form_con {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: linear-gradient(to right, rgb(255, 94, 98), rgb(255, 175, 73));
+  display: block;
+  top: 0;
+}
+.close_btn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+.close_btn button {
+    font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px 20px 10px 20px;
+
+}
+.form {
+  width: 25%;
+  height: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.form input{
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 18px;
+    font-weight: 600;
+}
+.form h3{
+    font-size: 17px;
+    color: white;
+    margin-top: 20px;
+}
+.form button{
+    margin-top: 10px;
+    padding:10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.form h1{
+    color: rgb(0, 0, 0);
+    letter-spacing: 8px;
+}

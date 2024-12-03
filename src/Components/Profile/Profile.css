@@ -1,0 +1,57 @@
+.profile_container1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+}
+.profile_container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.from{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(80, 80, 85, 0.415);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.from_conten{
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.hole_contain{
+    position: relative;
+}
+.close_btn{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: yellow;
+    padding: 20px;
+}
+.close_btn button{
+    padding: 10px 20px;
+}
