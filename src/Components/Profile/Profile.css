@@ -8,34 +8,40 @@
 .left_container{
     width: 20%;
     height: 100%;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border-right:2px solid rgba(165, 164, 164, 0.507);
+    border-right:1px solid rgba(210, 210, 210, 0.507);
 }
 .left_top{
     width: 100%;
     height: auto;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
     border: none;
     gap: 10px;
     border-radius: 10px;
-    background-color: rgba(204, 204, 204, 0.297);
+    background-color: rgba(222, 221, 221, 0.297);
 }
 .top_content{
     width: 100%;
     height:60px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.top_content :nth-child(2){
+    font-size: 15px;
+    color: gray;
+    font-weight: 200;
+}
 .top_content1{
-    width: 80px;
-    height:60px;
+    width: 75px;
+    height:50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,18 +52,16 @@
 }
 .left_center{
     width: 100%;
-    height: 65%;
+    height: 100%;
 }
 .left_list{
     width: 100%;
-    height: 50px;
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 17px;
     padding: 8px;
     cursor: pointer;
-    
 }
 .left_bottom{
     width: 100%;
@@ -69,8 +73,8 @@
     border: 1px solid gainsboro;
 }
 .top_content3{
-    width: 80px;
-    height:60px;
+    width: 70px;
+    height:50px;
     font-size: 25px;
     display: flex;
     flex-direction: column;
@@ -82,30 +86,55 @@
 }
 .top_content4{
     width: 100%;
-    height:60px;
-    font-size: 15px;
-    font-weight: 600;
+    height:50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.top_content4 :nth-child(1){
+.top_content4 p{
+    font-size: 13px;
+    margin-bottom: 6px;
     color: rgba(169, 169, 169, 0.889);
 }
+.rupe{
+    font-size: 20px;
+}
+.rupe1{
+    font-size: 15px;
+}
+.top_content4_rupe{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 .left_out{
     width: 100%;
-    height: 50px;
+    height: 90px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 14px;
-    border-top: 1px solid gray;
+    border-top: 1px solid rgba(190, 190, 190, 0.44);
+    font-weight: 600;
+}
+.left_out :nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+}
+.right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(235, 235, 235, 0.284);
 }
 .right_container{
-    width: 70%;
+    width: 80%;
     height: 100%;
-    margin: 0 auto;
-    /* background-color: aquamarine; */
 }
 .right_header{
     width: 100%;
@@ -130,15 +159,14 @@
     height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 45px;
     font-weight: 600;
 }
 .low{
-    width: 100%;
-    height: 30px;
-    font-size: 10px;
+    padding: 10px;
+    font-size: 8px;
     color: rgb(255, 0, 0);
     display: flex;
     flex-direction: column;
@@ -148,16 +176,26 @@
     background-color: rgba(255, 86, 86, 0.407);
 }
 .add_credit{
-    width: 100px;
-    height: 30px;
-    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     background-color: blue;
     cursor: pointer;
+}
+.add_credit p{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_credit p span{
+    font-size: 30px;
 }
 .detail_boxs{
     width: 100%;
@@ -169,9 +207,13 @@
 .box1{
     width: 100%;
     height: auto;
-    border: 2px solid gray;
+    border: 1px solid gainsboro;
     border-radius: 18px;
     padding: 15px;
+    background-color: white;
+}
+.box1 h2{
+    margin-bottom: 20px;
 }
 .box1_icon{
     display: flex;
@@ -184,10 +226,12 @@
 .box2{
     width: 100%;
     height: auto;
-    border: 2px solid gray;
+    border: 1px solid gainsboro;
     border-radius: 18px;
     padding: 15px;
+    background-color: white;
 }
+    
 .box2_content{
     width: 100%;
     display: flex;
@@ -203,7 +247,7 @@
 .box2_content1{
     width: 100%;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -211,7 +255,7 @@
 }
 .box2_content1 :nth-child(2){
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(151, 151, 151);
 }
 .invoice{
@@ -220,11 +264,13 @@
 .right_btm_box{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
-    border: 2px solid gray;
+    border: 1px solid gainsboro;
     border-radius: 15px;
     margin-top: 20px;
+    background-color: white;
+
 }
 .left_check{
     width: 100%;
@@ -233,7 +279,11 @@
     justify-content: space-between;
 }
 .left_check h2{
-    font-size: 25px;
+    width: 100%;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.44);
+    font-size: 15px;
+    font-weight: 600;
     color: rgb(141, 141, 141);
 }
 .right_check{
@@ -248,17 +298,18 @@
     margin-top: 10px;
     font-size: 15px;
     font-weight: 600;
+    padding: 8px 10px;
 }
 .left_check12{
     width: 40px;
-    height: 45px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     font-weight: 600;
     border-radius: 5px;
-    background-color: rgba(167, 167, 167, 0.701);
+    background-color: gainsboro;
 }
 .right_check1{
     width: 100%;
@@ -268,8 +319,20 @@
     justify-content: space-between;
     align-items: center;
 }
+.right_check1 p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .right_check1 h2{
-    font-size: 19px;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.44);
+    font-size: 15px;
+    font-weight: 600;
     color: rgb(141, 141, 141);
 }
 .right_check2{
@@ -280,9 +343,31 @@
     justify-content: space-between;
     align-items: center;
 }
+.right_check2 p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .right_check2 h2{
-    font-size: 19px;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.44);
+    font-size: 15px;
+    font-weight: 600;
     color: rgb(141, 141, 141);
+}
+.top_content4_rupe1{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+.rupe2{
+    font-size: 15px;
 }
 .right_check3{
     display: flex;
@@ -291,7 +376,14 @@
     align-items: center;
 }
 .right_check3 h2{
-    font-size: 19px;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.44);
+    font-size: 15px;
+    font-weight: 600;
     color: rgb(141, 141, 141);
 }
 .right_check4{
@@ -302,7 +394,19 @@
     align-items: center;
 }
 .op{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.44);
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(141, 141, 141);
+}
+.op span{
     opacity: 0;
+
 }
 .paid{
     color: rgb(9, 68, 16);
@@ -313,16 +417,19 @@
     border-radius: 15px;
     font-weight: 600;
     border: none;
+    margin-bottom: 17px;
+
 }
 .download{
     color: rgb(230, 230, 230);
     background-color: blue;
     border: 1px solid gray;
     cursor: pointer;
-    padding:8px 10px;
-    border-radius: 15px;
+    padding:10px 10px;
+    border-radius:10px;
     font-weight: 600;
     border: none;
+    margin-bottom: 17px;
 }
 .add_cart_container1{
     width: 100%;

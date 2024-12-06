@@ -13,6 +13,7 @@ import { FaRegEdit } from "react-icons/fa";
 import { TbFileExport } from "react-icons/tb";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
+import { MdCurrencyRupee } from "react-icons/md";
 
 const Profile = () => {
   const [add, setadd] = useState(false);
@@ -73,13 +74,14 @@ const Profile = () => {
 
           <div className="left_bottom">
             <div className="top_content3">
-              <p>
-                <LuWallet />
-              </p>
+              <p><LuWallet /></p>
             </div>
             <div className="top_content4">
               <p>H5 Cash</p>
-              <h2>$ 5000</h2>
+              <div className="top_content4_rupe">
+                <MdCurrencyRupee className="rupe" />
+                <h2>5000</h2>
+              </div>
             </div>
           </div>
           <div className="left_out">
@@ -89,6 +91,7 @@ const Profile = () => {
             <p>Log out</p>
           </div>
         </div>
+        <div className="right">
         <div className="right_container">
           <div className="right_header">
             <div className="heading">
@@ -103,7 +106,7 @@ const Profile = () => {
             </div>
           </div>
           <div className="add_credit" onClick={() => setadd(true)}>
-            <p>Add Credit +</p>
+            <p>Add Credit <span>+</span></p>
           </div>
           <div className="detail_boxs">
             <div className="box1">
@@ -111,7 +114,7 @@ const Profile = () => {
               <div className="box2_content1">
                 <p>Billing cycle</p>
                 <div className="box1_icon">
-                  <p>monthly</p>
+                  <p>Monthly</p>
                   <p>
                     <FaRegEdit className="edit" />
                   </p>
@@ -147,7 +150,10 @@ const Profile = () => {
               </div>
               <div className="box2_content1">
                 <p>Amount</p>
-                <p>$111111/month</p>
+                  <div className="top_content4_rupe">
+                    <MdCurrencyRupee className="rupe1" />
+                    <h2>24999/month</h2>
+                  </div>
               </div>
               <div className="box2_content1">
                 <p>Next billing</p>
@@ -186,11 +192,20 @@ const Profile = () => {
                 <p>24/12/23</p>
                 <p>24/12/23</p>
               </div>
-              <div  className="right_check2">
+              <div className="right_check2">
                 <h2>AMOUNT</h2>
-                <p>$24,999</p>
-                <p>$24,999</p>
-                <p>$24,999</p>
+                  <div className="top_content4_rupe1">
+                    <MdCurrencyRupee className="rupe2" />
+                    <p>24,999</p>
+                  </div>
+                  <div className="top_content4_rupe1">
+                    <MdCurrencyRupee className="rupe1" />
+                    <p>24,999</p>
+                  </div>
+                  <div className="top_content4_rupe1">
+                    <MdCurrencyRupee className="rupe1" />
+                    <p>24,999</p>
+                  </div>
               </div>
               <div  className="right_check3">
                 <h2>STATUS </h2>
@@ -199,7 +214,7 @@ const Profile = () => {
                 <button className="paid">Paid</button>
               </div>
               <div  className="right_check4">
-                <h2 className="op">AAAAA</h2>
+                <h2 className="op"><span>AAAAA</span></h2>
                 <button className="download">Download</button>
                 <button className="download">Download</button>
                 <button className="download">Download</button>
@@ -208,6 +223,7 @@ const Profile = () => {
             </div>
 
           </div>
+        </div>
         </div>
       </div>
 
