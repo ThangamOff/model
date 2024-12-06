@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import { useState } from "react";
-
+import logo from "../../Assets/Images/logo512.png"
 const Nav = () => {
   const [open, setopen] = useState(false);
 
@@ -12,7 +12,8 @@ const Nav = () => {
           <p>Home</p>
           <button onClick={() => setopen(true)}>login</button>
         </div>
-        <div className={open ? "form_con" : "form_con1"}>
+<img src={logo} alt="" />   
+     <div className={open ? "form_con" : "form_con1"}>
           <div className="close_btn">
             <button onClick={() => setopen(false)}>close</button>
           </div>

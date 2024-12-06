@@ -1,10 +1,10 @@
 import './App.css';
-import Nav from './Components/Navbar/Nav';
+import Profile from './Components/Profile/Profile';
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Profile/>
     </div>
   );
 }

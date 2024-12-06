@@ -1,7 +1,11 @@
 .nav_cointain {
   width: 100%;
-  height: 100px;
-  background-color: rgb(145, 191, 206);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
 }
 .nav_list {
   width: 100%;
@@ -32,9 +36,10 @@
   width: 100%;
   height: 100vh;
   position: fixed;
-  background: linear-gradient(to right, rgb(255, 94, 98), rgb(255, 175, 73));
   display: block;
+  background-color: rgba(0, 0, 0,0.7);
   top: 0;
+  z-index: 1;
 }
 .close_btn {
   width: 100%;
@@ -67,6 +72,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
+  background-color: white;
 }
 .form input{
     padding: 10px;
