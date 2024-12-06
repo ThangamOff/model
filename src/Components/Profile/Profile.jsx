@@ -6,14 +6,16 @@ import { FiFileText } from "react-icons/fi";
 import { IoWalletOutline } from "react-icons/io5";
 import { IoIosHelpCircleOutline } from "react-icons/io";
 import { FaFile } from "react-icons/fa6";
-import { IoMdContacts } from "react-icons/io";
 import { RxExit } from "react-icons/rx";
-import logo from "../../Assets/Images/logo.svg";
+import logo from "../../Assets/Images/logo1.jpg";
+
 import { FaRegEdit } from "react-icons/fa";
-import { TbFileExport } from "react-icons/tb";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 import { MdCurrencyRupee } from "react-icons/md";
+import { FiUsers } from "react-icons/fi";
+import { LuFileType2 } from "react-icons/lu";
+
 
 const Profile = () => {
   const [add, setadd] = useState(false);
@@ -22,7 +24,10 @@ const Profile = () => {
     <>
       <div className="container">
         <div className="left_container">
-          <img src={logo} alt="" />
+          <div className="left_container_img">
+           <img src={logo} alt="" />
+           <h1>HireIn5</h1>
+          </div>
           <div className="left_top">
             <div className="top_content">
               <p>Divya Gupta</p>
@@ -42,7 +47,7 @@ const Profile = () => {
             </div>
             <div className="left_list">
               <p>
-                <IoMdContacts />
+                <FiUsers />
               </p>
               <p>Interviews</p>
             </div>
@@ -85,9 +90,7 @@ const Profile = () => {
             </div>
           </div>
           <div className="left_out">
-            <p>
-              <RxExit />
-            </p>
+            <p><RxExit /></p>
             <p>Log out</p>
           </div>
         </div>
@@ -99,7 +102,7 @@ const Profile = () => {
               <p>Some caption which sets more context for this page</p>
             </div>
             <div className="heading1">
-              <p>$150</p>
+              <p><span>$</span>150</p>
               <div className="low">
                 <p>Low Balance</p>
               </div>
@@ -167,19 +170,19 @@ const Profile = () => {
               <h2>NAME</h2>
               <div className="left_check1">
                 <div className="left_check12">
-                  <p><TbFileExport/></p>
+                  <p><LuFileType2 /></p>
                 </div>
                 <p>Invoice_no.123456</p>
               </div>
               <div className="left_check1">
                 <div className="left_check12">
-                  <p><TbFileExport/></p>
+                  <p><LuFileType2 /></p>
                 </div>
                 <p>Invoice_no.123456</p>
               </div>
               <div className="left_check1">
                 <div className="left_check12">
-                  <p><TbFileExport/></p>
+                  <p><LuFileType2 /></p>
                 </div>
                 <p>Invoice_no.123456</p>
               </div>
@@ -237,7 +240,7 @@ const Profile = () => {
           </div>
           <div className="add_cart_balance_con">
             <div className="add_cart_current">
-              <h1>$150</h1>
+              <h1><span>$</span>150</h1>
               <p>Current Balance</p>
             </div>
             <input type="text" className="balance_box" />

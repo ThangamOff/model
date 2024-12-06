@@ -14,6 +14,13 @@
     gap: 20px;
     border-right:1px solid rgba(210, 210, 210, 0.507);
 }
+.left_container_img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .left_top{
     width: 100%;
     height: auto;
@@ -27,7 +34,7 @@
 }
 .top_content{
     width: 100%;
-    height:60px;
+    height:50px;
     font-size: 20px;
     font-weight: 600;
     display: flex;
@@ -40,8 +47,8 @@
     font-weight: 200;
 }
 .top_content1{
-    width: 75px;
-    height:50px;
+    width: 65px;
+    height:45px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,8 +67,10 @@
     align-items: center;
     gap: 10px;
     font-size: 17px;
+    font-weight: 500;
     padding: 8px;
     cursor: pointer;
+    color: rgba(87,87,87);
 }
 .left_bottom{
     width: 100%;
@@ -93,8 +102,7 @@
 }
 .top_content4 p{
     font-size: 13px;
-    margin-bottom: 6px;
-    color: rgba(169, 169, 169, 0.889);
+    color: rgba(118, 117, 117, 0.889);
 }
 .rupe{
     font-size: 20px;
@@ -118,6 +126,7 @@
     gap: 14px;
     border-top: 1px solid rgba(190, 190, 190, 0.44);
     font-weight: 600;
+    color: rgb(90, 90, 90);
 }
 .left_out :nth-child(1){
     font-size: 18px;
@@ -142,6 +151,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .heading{
     width: 100%;
@@ -151,18 +161,25 @@
     justify-content: center;
     align-content: center;
 }
+.heading :nth-child(1){
+    font-weight: 500;
+}
 .heading :nth-child(2){
-    color: rgb(151, 151, 151);
+    margin-top: 10px;
+    color: rgba(126, 125, 125, 0.866);
 }
 .heading1{
-    width: 10%;
+    width: 20%;
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 500;
+}
+.heading1 span{
+    font-size: 20px;
 }
 .low{
     padding: 10px;
@@ -173,16 +190,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-color: rgba(255, 86, 86, 0.407);
+    background-color: rgba(255, 190, 190, 0.625);
 }
 .add_credit{
-    width: 150px;
-    height: 40px;
+    width: 120px;
+    height: 35px;
     border-radius: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     background-color: blue;
     cursor: pointer;
@@ -195,7 +212,7 @@
     align-items: center;
 }
 .add_credit p span{
-    font-size: 30px;
+    font-size: 20px;
 }
 .detail_boxs{
     width: 100%;
@@ -213,15 +230,21 @@
     background-color: white;
 }
 .box1 h2{
+    font-size: 20px;
     margin-bottom: 20px;
 }
 .box1_icon{
     display: flex;
     justify-content: center;
     gap: 8px;
+    color: gray;
+}
+.box1_icon p{
+    color: rgb(87, 87, 87);
 }
 .edit{
-    color: blue;
+    font-size: 17px;
+    color: rgba(0, 0, 255, 0.645);
 }
 .box2{
     width: 100%;
@@ -231,13 +254,15 @@
     padding: 15px;
     background-color: white;
 }
-    
 .box2_content{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+.box2_content :nth-child(1){
+    font-size: 19px;
 }
 .box2_content :nth-child(2){
     font-size: 13px;
@@ -256,21 +281,20 @@
 .box2_content1 :nth-child(2){
     font-size: 13px;
     font-weight: 500;
-    color: rgb(151, 151, 151);
+    color: rgb(87, 87, 87);
 }
 .invoice{
     margin: 30px 0;
+    font-size: 23px;
 }
 .right_btm_box{
     width: 100%;
     height: auto;
-    padding: 20px 0;
     display: flex;
     border: 1px solid gainsboro;
     border-radius: 15px;
     margin-top: 20px;
     background-color: white;
-
 }
 .left_check{
     width: 100%;
@@ -282,8 +306,8 @@
     width: 100%;
     padding: 10px 10px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.44);
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
     color: rgb(141, 141, 141);
 }
 .right_check{
@@ -299,6 +323,7 @@
     font-size: 15px;
     font-weight: 600;
     padding: 8px 10px;
+    color: rgb(100, 98, 98);
 }
 .left_check12{
     width: 40px;
@@ -309,7 +334,8 @@
     font-size: 20px;
     font-weight: 600;
     border-radius: 5px;
-    background-color: gainsboro;
+    color: rgb(114, 111, 111);
+    background-color: rgba(200, 200, 200, 0.347);
 }
 .right_check1{
     width: 100%;
@@ -323,6 +349,8 @@
     height: 100%;
     display: flex;
     align-items: center;
+    font-size: 15px;
+    font-weight: 500;
 }
 .right_check1 h2{
     width: 100%;
@@ -331,8 +359,8 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.44);
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: rgb(141, 141, 141);
 }
 .right_check2{
@@ -355,8 +383,8 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.44);
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: rgb(141, 141, 141);
 }
 .top_content4_rupe1{
@@ -368,6 +396,7 @@
 }
 .rupe2{
     font-size: 15px;
+    font-weight: 500;
 }
 .right_check3{
     display: flex;
@@ -382,8 +411,8 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.44);
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: rgb(141, 141, 141);
 }
 .right_check4{
@@ -400,8 +429,8 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.44);
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: rgb(141, 141, 141);
 }
 .op span{
@@ -409,8 +438,8 @@
 
 }
 .paid{
-    color: rgb(9, 68, 16);
-    background-color: rgba(6, 193, 152, 0.326);
+    color: rgb(11, 176, 141);
+    background-color: rgba(112, 255, 224, 0.655);
     border: 1px solid gray;
     cursor: pointer;
     padding:5px 10px;
@@ -425,9 +454,9 @@
     background-color: blue;
     border: 1px solid gray;
     cursor: pointer;
-    padding:10px 10px;
+    padding:8px 10px;
     border-radius:10px;
-    font-weight: 600;
+    font-weight: 500;
     border: none;
     margin-bottom: 17px;
 }
@@ -455,14 +484,14 @@
 }
 .add_cart{
     width: 30%;
-    height: 50%;
+    height: auto;
     border-radius: 12px;
     background-color: rgb(255, 255, 255);
     border: 1px solid gainsboro;
 }
 .add_cart_head{
     width: 100%;
-    height:100px;
+    height:70px;
     padding: 20px;
     font-size: 20px;
     font-weight: 600;
@@ -489,7 +518,8 @@
 .add_cart_balance_con{
     width: 100%;
     height: 50%;
-    padding: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 .add_cart_current{
     width: 100%;
@@ -498,13 +528,18 @@
     justify-content: center;
     align-items: center;
 }
-.add_cart_current :nth-child(1){
+.add_cart_current h1{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 500;
+}
+.add_cart_current span{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 .add_cart_current :nth-child(2){
     color: rgb(153, 153, 153);
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
 }
 .balance_box{
@@ -519,27 +554,28 @@
     width: 100%;
     margin-top: 10px;
     display: flex;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 .balance_box1 button{
-    color: green;
-    padding: 10px;
+    color: rgba(12, 179, 12, 0.942);
+    padding: 8px 15px;
+    margin: 10px;
     border: none;
     border-radius: 20px;
     font-weight: 600;
     cursor: pointer;
-    background-color: rgba(144, 238, 144, 0.653);
+    background-color: rgba(106, 255, 106, 0.373);
 }
 .cart_crt_btn1{
     width: 100%;
     height: 40px;
-    background-color: blueviolet;
+    background-color: rgba(108, 32, 178, 0.586);
     color: white;
     border: none;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
+    font-size: 20px;
 }
