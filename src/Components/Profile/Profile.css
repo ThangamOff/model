@@ -531,7 +531,9 @@
   transform: 0.1s;
 }
 .add_cart {
-  width: 28%;
+  width: 30%;
+  position: absolute;
+  top: 25%;
   height: auto;
   border-radius: 12px;
   background-color:var(--white);
@@ -581,7 +583,7 @@
 }
 .add_cart_current span {
   font-size: 35px;
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 .add_cart_current :nth-child(2) {
@@ -622,7 +624,7 @@
     cursor: pointer;
     font-size: 17px;
     font-weight: 600;
-    background-color: rgb(153, 0, 255);
+    background-color: rgb(112, 46, 255);
     color: var(--white);
     border: none;
 }
