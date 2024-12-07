@@ -253,6 +253,7 @@
 }
 .add_credit p span {
   font-size: 30px;
+  color: var(--borderColor);
 }
 .detail_boxs {
   width: 100%;
