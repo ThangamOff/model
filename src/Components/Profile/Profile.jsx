@@ -24,10 +24,13 @@ const Profile = () => {
     <>
       <div className="container">
         <div className="left_container">
+        <div className="left_container1">
+
           <div className="left_container_img">
            <img src={logo} alt="" />
            <h1>HireIn5</h1>
           </div>
+          
           <div className="left_top">
             <div className="top_content">
               <p>Divya Gupta</p>
@@ -39,40 +42,28 @@ const Profile = () => {
           </div>
 
           <div className="left_center">
-            <div className="left_list">
-              <p>
-                <PiCompass />
-              </p>
+            <div className="left_list1">
+              <p><PiCompass /></p>
               <p>Discover</p>
             </div>
-            <div className="left_list">
-              <p>
-                <FiUsers />
-              </p>
+            <div className="left_list1">
+              <p><FiUsers /></p>
               <p>Interviews</p>
             </div>
-            <div className="left_list">
-              <p>
-                <FiFileText />
-              </p>
+            <div className="left_list1">
+              <p><FiFileText /></p>
               <p>Contracts</p>
             </div>
-            <div className="left_list">
-              <p>
-                <FaFile />
-              </p>
+            <div className="left_list1_active">
+              <p><FaFile /></p>
               <p>Billing</p>
             </div>
-            <div className="left_list">
-              <p>
-                <IoWalletOutline />
-              </p>
+            <div className="left_list1">
+              <p><IoWalletOutline /></p>
               <p>Wallet</p>
             </div>
-            <div className="left_list">
-              <p>
-                <IoIosHelpCircleOutline />
-              </p>
+            <div className="left_list1">
+              <p><IoIosHelpCircleOutline /></p>
               <p>Help & FAQs</p>
             </div>
           </div>
@@ -83,26 +74,31 @@ const Profile = () => {
             </div>
             <div className="top_content4">
               <p>H5 Cash</p>
-              <div className="top_content4_rupe">
+              <div className="top_content14_rupe">
                 <MdCurrencyRupee className="rupe" />
                 <h2>5000</h2>
               </div>
             </div>
           </div>
+          
+          </div>
+          
           <div className="left_out">
             <p><RxExit /></p>
             <p>Log out</p>
           </div>
+
         </div>
+
         <div className="right">
         <div className="right_container">
           <div className="right_header">
             <div className="heading">
               <h1>Billing</h1>
-              <p>Some caption which sets more context for this page</p>
+              <h1><span>$</span>150</h1>
             </div>
             <div className="heading1">
-              <p><span>$</span>150</p>
+              <h4>Some caption which sets more context for this page</h4>
               <div className="low">
                 <p>Low Balance</p>
               </div>
@@ -202,11 +198,11 @@ const Profile = () => {
                     <p>24,999</p>
                   </div>
                   <div className="top_content4_rupe1">
-                    <MdCurrencyRupee className="rupe1" />
+                    <MdCurrencyRupee className="rupe2" />
                     <p>24,999</p>
                   </div>
                   <div className="top_content4_rupe1">
-                    <MdCurrencyRupee className="rupe1" />
+                    <MdCurrencyRupee className="rupe2" />
                     <p>24,999</p>
                   </div>
               </div>
@@ -228,6 +224,7 @@ const Profile = () => {
           </div>
         </div>
         </div>
+        
       </div>
 
       <div className={add ? "add_cart_container" : "add_cart_container1"} onClick={() => setadd(false)}>
