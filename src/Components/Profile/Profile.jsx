@@ -75,7 +75,7 @@ const Profile = () => {
             <div className="top_content4">
               <p>H5 Cash</p>
               <div className="top_content14_rupe">
-                <MdCurrencyRupee className="rupe" />
+                <MdCurrencyRupee />
                 <h2>5000</h2>
               </div>
             </div>

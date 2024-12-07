@@ -18,7 +18,7 @@
     --right: #dbdbdb2e;
     --dg:#d1d1d132;
     --invoiceDate: #929191;
-    --red:#7c7575;
+    --red:#494848;
 }
 .left_container {
   width: 20%;
@@ -64,10 +64,11 @@
 }
 .top_content :nth-child(1) {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 .top_content :nth-child(2) {
-  font-size: 17px;
+  font-size: 14px;
+  margin-top: 8px;
   color: gray;
   font-weight: 500;
 }
@@ -84,7 +85,7 @@
 }
 .left_center {
   width: 100%;
-  height: 88%;
+  height: 90%;
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -122,9 +123,9 @@
   border: 1px solid var(--borderColor);;
 }
 .top_content3 {
-  width: 70px;
-  height: 50px;
-  font-size: 25px;
+  width: 50px;
+  height: 40px;
+  font-size: 26px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,25 +136,25 @@
 }
 .top_content4 {
   width: 100%;
-  height: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   
 }
 .top_content4 p {
-  font-size: 14px;
+  font-size: 11px;
+  font-weight: 600;
   color: var(--textColor);
-}
-.rupe {
-  font-size: 21px;
+  margin: 0 0 2px 3px;
 }
 .top_content14_rupe{
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 4px 0;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+}
+.top_content14_rupe h2{
+    font-size: 19px;
+    font-weight: 600;
 }
 .left_out {
   cursor: pointer;
@@ -163,7 +164,7 @@
   padding: 15px;
   border-top: 1px solid var(--borderColor);
   font-weight: 600;
-  color: var(--textColor);
+  color: var(--red);
 }
 .left_out :nth-child(1) {
   font-size: 18px;
@@ -353,8 +354,8 @@
   width: 100%;
   padding: 20px;
   border-bottom: 1px solid var(--borderColor);
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--invoiceDate);
 }
 .left_check1 {
@@ -399,8 +400,8 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid var(--borderColor);
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 14px;
+  font-weight: 600;
     color: var(--invoiceDate);
   }
 .right_check1 p {
@@ -426,8 +427,8 @@
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid var(--borderColor);
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--invoiceDate);
 }
 .right_check2 p {
@@ -461,8 +462,8 @@
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid  var(--borderColor);
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--invoiceDate);
 }
 .right_check4 {
@@ -479,8 +480,8 @@
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid  var(--borderColor);
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--textColor);
 }
 .op span {
